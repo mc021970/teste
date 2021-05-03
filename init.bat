@@ -6,3 +6,8 @@ git add .
 git commit -m "inicio"
 git push --set-upstream origin master
 git status
+git checkout -b develop
+echo "# develop" >> develop.txt
+git add .
+git commit -m "develop"
+git push --set-upstream origin develop
